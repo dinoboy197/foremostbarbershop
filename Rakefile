@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Peninsulabarbershop::Application.load_tasks
+Foremostbarbershop::Application.load_tasks

@@ -1,8 +1,8 @@
 # Be sure to restart your server when you modify this file.
 
-Peninsulabarbershop::Application.config.session_store :cookie_store, key: '_peninsulabarbershop_session'
+Foremostbarbershop::Application.config.session_store :cookie_store, key: 'foremostbarbershop_session'
 
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information
 # (create the session table with "rails generate session_migration")
-# Peninsulabarbershop::Application.config.session_store :active_record_store
+# Foremostbarbershop::Application.config.session_store :active_record_store
