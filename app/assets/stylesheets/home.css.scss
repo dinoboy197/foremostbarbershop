@@ -1,0 +1,75 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$function-color: #f2f2f2;
+
+$function-color-light: lighten( $function-color, 10% );
+
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: verdana, sans-serif;
+  font-size: 11px;
+  
+  color: white;
+  background-color: #101010;
+}
+
+#wrapper {
+  $wrapper-width: 1000px;
+  
+  width: $wrapper-width;
+  margin: 0 auto;
+  padding: 3px 0px;
+  
+  background-color: #50795E;
+}
+
+#content {
+  $content-width: 900px;
+  
+  width: $content-width;
+  margin: 0 auto;
+  padding: 0px 0px;
+}
+
+#header {
+  padding: 0 25px;
+}
+
+.contentarea {
+  background-color: #5E816A;
+  padding: 3px 3px;
+}
+
+.photo {
+  width: 400px;
+  padding: 5px;
+  margin: 18px;
+  background-color: #A57D6D;
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+
+h2 {
+  color: #9AB8A4;
+  background-color: #50795E;
+  font-size: 18px;
+  border-color: #A57D6D;
+  border-width: 2px;
+  border-style: solid;
+}
+
+h3 {
+  font-size: 12px;
+  margin: 0.5em 0 0.3em;
+}
